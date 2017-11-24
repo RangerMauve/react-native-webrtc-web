@@ -1,0 +1,30 @@
+{
+  "name": "react-native-webrtc-web",
+  "version": "1.0.0",
+  "description": "Same API as react-native-webrtc, but implemented using browser-based WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/react-native-webrtc-web.git"
+  },
+  "keywords": [
+    "webrtc",
+    "react",
+    "native",
+    "web",
+    "browser"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/react-native-webrtc-web/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/react-native-webrtc-web#readme",
+  "dependencies": {
+    "global": "^4.3.2",
+    "webrtc-adapter": "^6.0.2"
+  }
+}
