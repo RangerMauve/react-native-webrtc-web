@@ -12,7 +12,7 @@ module.exports = {
 	RTCView: RTCViewWeb,
 	MediaStream: global.MediaStream,
 	MediaStreamTrack: global.MediaStreamTrack,
-	getUserMedia: global.navigator.mediaDevices.bind(global.navigator.mediaDevices),
+	getUserMedia: global.navigator.mediaDevices.getUserMedia.bind(global.navigator.mediaDevices),
 };
 
 function RTCViewWeb(props) {
