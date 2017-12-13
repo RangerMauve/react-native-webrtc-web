@@ -1,6 +1,6 @@
 {
   "name": "react-native-webrtc-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Same API as react-native-webrtc, but implemented using browser-based WebRTC",
   "main": "index.js",
   "scripts": {

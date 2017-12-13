@@ -1,6 +1,6 @@
 import { request } from "https";
 
-var Adapter = require("webrtc-adapter");
+var Adapter = require("webrtc-adapter/out/adapter_no_edge.js");
 var global = require("global");
 var React = require("react");
 var ReactNative = require("react-native");
